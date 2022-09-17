@@ -33,7 +33,7 @@ main {
   height: 100%;
   position: relative;
   margin: auto;
-  background-color: #F5F5F5;
+  background-color: #BBB8B8;
   z-index: -2;
 
 }
@@ -43,4 +43,3 @@ main {
   width: 65%;
   max-width: 65%;
 }
-

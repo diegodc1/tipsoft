@@ -16,7 +16,7 @@
   height: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem 6rem;
+  padding: 2rem 5rem;
 }
 
 .box {
@@ -79,4 +79,19 @@
 
 .label_modal {
   margin-left: 10px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #424242;
+  color: #929292;
+  padding: 0.3rem 0rem;
+}
+
+.line a {
+  text-decoration: none;
+  color: #929292;
 }

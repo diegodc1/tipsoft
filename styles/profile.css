@@ -213,3 +213,36 @@ a.list-group-item,
   position: relative;
   top: 3rem;
 }
+
+.aviso4 {
+  margin: 0rem;
+  padding: 0rem;
+  color: red;
+  width: 25.5rem;
+  align-items: flex-start;
+  display: none;
+
+  font-weight: bold;
+}
+
+.delete-button {
+  background-color: red !important;
+  color: white !important;
+  font-weight: bold !important;
+  margin-top: 1rem;
+  padding-left: 0.9rem !important;
+  padding-right: 0.9rem !important;
+}
+
+.modal-body p {
+  font-weight: bold;
+  color: red
+}
+
+.modal-body h4 {
+  font-weight: bold
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}

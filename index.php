@@ -50,6 +50,8 @@ if (isset($_POST['userEmail']) && isset($_POST['userPassword'])) {
     header('Location: home.php');
     $_SESSION['user_logado'] =  true;
     $_SESSION['user_name'] = $resultado['user'];
+    $_SESSION['user_email'] = $resultado['email'];
+    $_SESSION['user_id'] = $resultado['id'];
   } else {
     $_SESSION['loginErro'] = "Usuário ou senha Inválido";
     echo "<style> .input-box-1 {border: 2px solid red}</style>";

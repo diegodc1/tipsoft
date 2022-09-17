@@ -56,12 +56,11 @@
         </div>
       </div>
     </div>
-    <div class="box five">
-
-    </div>
-  </div>
   </div>
 </footer>
+<div class="line">
+  <p>Desenvolvido por <a href="https://github.com/diegodc1" target="_blank">Diego Alves</a></p>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
