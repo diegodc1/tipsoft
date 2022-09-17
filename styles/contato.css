@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.icon-contato {
+    font-size: 10rem;      
+    color: white;
+    position: relative;
+    top: 50%;
+    display: flex;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.box-content-contato {
+    max-width: 80vw;
+    margin: auto;
+    background-color: #333;
+}
+
+
+

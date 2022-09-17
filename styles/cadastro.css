@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+  height: 100%;
+  width: 100%;
+}
+
+.box1,
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: #0F1120;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0rem 0rem 5rem 0rem
+}
+
+
+
+.box1 a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #0652E9;
+  font-weight: 700;
+  border-radius: 15px;
+  color: white;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.box1 img {
+  margin-bottom: 2rem;
+}
+
+.box1 a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.box2 {
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.box2 h1 {
+  color: #0F1120;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem
+}
+
+form i {
+  background-color: #D1D1D1;
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+form input {
+  border: none;
+  background-color: #D1D1D1;
+  padding: 1rem;
+  width: 22rem;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-name,
+.input-email,
+.input-password,
+.input-repeatPassword {
+  background-color: #D1D1D1;
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0652E9;
+  color: white;
+  padding: 1rem 4rem;
+  border-radius: 15px;
+  font-weight: 700;
+  transition: 0.5s;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit-button:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.aviso2,
+.aviso3 {
+  margin: 0rem;
+  padding: 0rem;
+  color: red;
+  width: 25.5rem;
+  align-items: flex-start;
+  display: none;
+
+  font-weight: bold;
+}

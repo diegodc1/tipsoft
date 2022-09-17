@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo-footer {
+  width: 10rem;
+}
+
+.footer-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 6rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  height: 90%;
+  color: white;
+}
+
+.box a {
+  text-decoration: none;
+  color: white;
+}
+
+.five {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.five a i {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+
+.social-medias {
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+
+.social-medias i {
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+.btn-color {
+  background-color: #0F1120;
+  border: none;
+  position: relative;
+  right: 0.75rem;
+}
+
+.btn-color:hover {
+  background-color: #0F1120;
+  border: none;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_modal {
+  margin-left: 10px;
+}
